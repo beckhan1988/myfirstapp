@@ -1,0 +1,37 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
